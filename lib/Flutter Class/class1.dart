@@ -6,13 +6,24 @@ class AppBarW extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey,
       appBar: AppBar(
-        // toolbarHeight: 100,
+        // backgroundColor: Colors.brown,
+        flexibleSpace: Container(
+            decoration: const BoxDecoration(
+                gradient: LinearGradient(
+                    colors: [Colors.blue, Colors.pink, Colors.purple]))),
+        toolbarHeight: 200,
         centerTitle: true,
+        shape: const RoundedRectangleBorder(
+            borderRadius: BorderRadius.only(
+          bottomRight: Radius.circular(250),
+          // bottomLeft: Radius.circular(50),
+        )),
         title: const Text(
           "Appbar",
           style: TextStyle(
-              color: Color.fromARGB(255, 88, 10, 144),
+              color: Color.fromARGB(255, 187, 180, 192),
               fontSize: 25,
               fontWeight: FontWeight.bold),
         ),
