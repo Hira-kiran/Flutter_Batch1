@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:fluttercls/Flutter%20Class/class3.dart';
+
+import 'Flutter Class/class3.dart';
 
 void main() {
   runApp(const MyApp());

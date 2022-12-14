@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+
+import 'class1.dart';
+import 'class4.dart';
 // •	How to make stylish app bar
 // •	How to apply linear gradient
 // •	Text Form Field widget
@@ -81,18 +84,24 @@ class LoginUi extends StatelessWidget {
           ),
           Padding(
             padding: const EdgeInsets.only(top: 20),
-            child: Container(
-              decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(20),
-                  color: const Color.fromARGB(255, 217, 210, 10),
-                  gradient: const LinearGradient(colors: [
-                    Color.fromARGB(156, 23, 68, 25),
-                    Colors.purple,
-                    Colors.brown
-                  ])),
-              height: 50,
-              width: 350,
-              child: const Center(child: Text("Login")),
+            child: InkWell(
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: ((context) => AppBarW())));
+              },
+              child: Container(
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(20),
+                    color: const Color.fromARGB(255, 217, 210, 10),
+                    gradient: const LinearGradient(colors: [
+                      Color.fromARGB(156, 23, 68, 25),
+                      Colors.purple,
+                      Colors.brown
+                    ])),
+                height: 50,
+                width: 350,
+                child: const Center(child: Text("Login")),
+              ),
             ),
           )
         ],
