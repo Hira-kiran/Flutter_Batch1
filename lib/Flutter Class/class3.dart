@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import 'class1.dart';
-import 'class4.dart';
 // •	How to make stylish app bar
 // •	How to apply linear gradient
 // •	Text Form Field widget
@@ -87,7 +86,7 @@ class LoginUi extends StatelessWidget {
             child: InkWell(
               onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: ((context) => AppBarW())));
+                    MaterialPageRoute(builder: ((context) => const AppBarW())));
               },
               child: Container(
                 decoration: BoxDecoration(

@@ -1,3 +1,8 @@
+
+// •	App bar widget
+// •	Drawer
+// •	Divider
+
 import 'package:flutter/material.dart';
 import 'package:fluttercls/Flutter%20Class/class2.dart';
 
@@ -29,7 +34,7 @@ class Class6 extends StatelessWidget {
             },
             leading: const Icon(Icons.home),
             title: const Text("Home"),
-            subtitle: Text("MP3"),
+            subtitle: const Text("MP3"),
             trailing: const Icon(Icons.arrow_right),
           ),
           const ListTile(
