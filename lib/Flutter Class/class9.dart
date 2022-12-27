@@ -18,12 +18,12 @@ class Class9 extends StatelessWidget {
           title: const Text("Widgets"),
         ),
         body: Column(
-          children: [
-            Container(
+          children: const [
+            SizedBox(
               height: 100,
               width: 200,
               // Card widgets
-              child: const Card(
+              child: Card(
                 elevation: 20,
                 margin: EdgeInsets.all(20),
                 shadowColor: Colors.pink,
@@ -36,7 +36,8 @@ class Class9 extends StatelessWidget {
   }
 }
 
-// Sized box
+// *************Sized box***************
+//**************Listview**************** */
 
 
 //  ListView(
