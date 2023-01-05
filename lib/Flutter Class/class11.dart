@@ -15,7 +15,7 @@ class Class11 extends StatefulWidget {
 
 class _Class11State extends State<Class11> {
   List fastFood = ["pizza", "pasta", "kabab", "TikkaS", "SHoshi"];
-  var _size = 100.0;
+  // var _size = 100.0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
