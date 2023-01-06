@@ -1,3 +1,10 @@
+
+// •	Understanding pub.dev
+// •	How we can use packages on pub.dev
+// •	Shopping card
+// •	Country code picker
+// •	Font
+
 import 'package:country_picker/country_picker.dart';
 import 'package:flutter/material.dart';
 

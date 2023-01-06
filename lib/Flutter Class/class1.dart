@@ -1,3 +1,11 @@
+// •	Stateless widget
+// •	Hot reload and hot restart
+// •	Understand widgets
+// •	App bar widget
+// •	Container widget
+// •	Single child widgets
+// •	Multi child widgets
+
 import 'package:flutter/material.dart';
 
 class AppBarW extends StatelessWidget {

@@ -1,11 +1,12 @@
-import 'package:flutter/material.dart';
 
-import 'class1.dart';
 // •	How to make stylish app bar
 // •	How to apply linear gradient
 // •	Text Form Field widget
 // •	Create round button
 // •	Design Login UI
+import 'package:flutter/material.dart';
+import 'class1.dart';
+
 
 class LoginUi extends StatelessWidget {
   const LoginUi({super.key});
