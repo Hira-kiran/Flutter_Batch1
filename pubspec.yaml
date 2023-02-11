@@ -41,7 +41,7 @@ dependencies:
   introduction_screen: ^3.1.2
   carousel_slider: ^4.2.1
   readmore: ^2.2.0
-  
+  google_fonts: ^3.0.1
   
 
 dev_dependencies:
